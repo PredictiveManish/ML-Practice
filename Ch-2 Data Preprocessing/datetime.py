@@ -1,4 +1,6 @@
 import pandas as pd
+import numpy as np
+import datetime as dt
 data = {'Date':['2022-01-15','2022-02-20','2022-03-25'],
         'Event':['Event A','Event B','Event C']}
 df = pd.DataFrame(data)
